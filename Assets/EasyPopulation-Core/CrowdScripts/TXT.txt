@@ -1,0 +1,34 @@
+DISPATCHER (every 1 sec) 
+	BEHAVIOR AI 
+		PSYCHOLOGY
+		MARKOV GAJO
+		DISPATCHER
+
+NO Dispatcher 
+processBehavior()
+	 FUNCOES METABOLICAS
+	 	owner.metabolism.performMetabolicFunctions();
+	         behavior.levelOfResources = owner.metabolism.chemicals[0] + owner.metabolism.chemicals[1] + owner.metabolism.chemicals[2];
+	 APPRAISAL DA SITUACAO	
+         	reward = behavior.rewards.calculatesAppraisal();
+	 UPDATE MARKOV
+	        behavior.myMarkov.updatesChain(reward / 10);//ATENCAO TENTATIVA DE VER SE NAO OVERCOME!!!
+                                                        //Calcula distancias e conta neighbours
+            	behavior.scanNeighbourhood();
+            	//Activates the boolean flags (fome, heat, bPertoPrey, bPertoMate) 
+            	//according to the surrounding environment and the neighbours
+	 CONTINUA A AVALIACAO
+            	behavior.accessesSituation();
+	        //Chooses the next state based on this configuration
+	 ESCOLHE O NOVO ESTADO DA MARKOV
+            actionPerformed = behavior.myMarkov.processMarkovChoice();
+	EXECUTA ACAO
+            behavior.performAction(actionPerformed);
+	REWARDS A ACAO
+            behavior.rewards.determinesBonusReward(actionPerformed, 0.25f);
+
+            lastActionPerformed = actionPerformed;
+            if (Global.whoIsBeingTracked == owner.getId())
+                Debug.Log("Process Behavior ------------ Acao:" + actionPerformed + " - " + Time.time);
+	UPDATA A EMOCAO
+            behavior.emotionalUpdate();

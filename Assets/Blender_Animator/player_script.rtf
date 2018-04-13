@@ -1,0 +1,44 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green150\blue149;\red68\green68\blue68;\red51\green100\blue164;
+\red245\green125\blue0;}
+\margl1440\margr1440\vieww18120\viewh13520\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs24 \cf2 using\cf3  UnityEngine;\
+\cf2 using\cf3  System.Collections;\
+\
+\cf2 public\cf3  \cf2 class\cf3  Player : \cf4 MonoBehaviour\cf3  \{\
+\
+		\cf2 private\cf3  Animator anim;\
+		\cf2 private\cf3  \cf4 CharacterController\cf3  controller;\
+\
+		\cf2 public\cf3  \cf4 float\cf3  speed = \cf5 6.0f\cf3 ;\
+		\cf2 public\cf3  \cf4 float\cf3  turnSpeed = \cf5 60.0f\cf3 ;\
+		\cf2 private\cf3  \cf4 Vector3\cf3  moveDirection = \cf4 Vector3\cf3 .zero;\
+		\cf2 public\cf3  \cf4 float\cf3  gravity = \cf5 20.0f\cf3 ;\
+				\
+		\cf4 void\cf3  Start () \{\
+			controller = GetComponent <\cf4 CharacterController\cf3 >();\
+			anim = gameObject.GetComponentInChildren<Animator>();\
+		\}\
+		\
+		\cf4 void\cf3  Update ()\{\
+			\cf2 if\cf3  (\cf4 Input\cf3 .GetKey (\cf5 "up"\cf3 )) \{\
+				anim.SetInteger (\cf5 "AnimationPar"\cf3 , \cf5 1\cf3 );\
+			\}  \cf2 else\cf3  \{\
+				anim.SetInteger (\cf5 "AnimationPar"\cf3 , \cf5 0\cf3 );\
+			\}\
+\
+			\cf2 if\cf3 (controller.isGrounded)\{\
+				moveDirection = transform.forward * \cf4 Input\cf3 .GetAxis(\cf5 "Vertical"\cf3 ) * speed;\
+			\}\
+\
+			\cf4 float\cf3  turn = \cf4 Input\cf3 .GetAxis(\cf5 "Horizontal"\cf3 );\
+			transform.Rotate(\cf5 0\cf3 , turn * turnSpeed * \cf4 Time\cf3 .deltaTime, \cf5 0\cf3 );\
+			controller.Move(moveDirection * \cf4 Time\cf3 .deltaTime);\
+			moveDirection.y -= gravity * \cf4 Time\cf3 .deltaTime;\
+		\}\
+\}\
+}

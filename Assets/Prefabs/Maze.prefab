@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592517cf81484424a60f86dfcafc7eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size:
+    x: 20
+    z: 20
+  cellPrefab: {fileID: 11423336, guid: 9467cfab66440de428832cd75ed82423, type: 2}
+  cellTreePrefab: {fileID: 11497022, guid: b7ad39a67bff7452f90277c531db3529, type: 2}
+  generationStepDelay: 0
+  passagePrefab: {fileID: 11400000, guid: 4db582300649e4e399ee4a2665f9e8e6, type: 2}
+  stairsPrefab: {fileID: 11482954, guid: 869091cdaf55d4e6a80712bdf19c0934, type: 2}
+  doorPrefab: {fileID: 11484146, guid: ffb97e96acfe09642b3730425706cc03, type: 2}
+  columnPrefab: {fileID: 139520, guid: 2ddf2c2a23971ab4ba571fd7e7be7c9a, type: 2}
+  railingColumnPrefab: {fileID: 173420, guid: cccbac6477f1b46f19090683f3d26cce, type: 2}
+  doorProbability: 0.1
+  railingPrefabs:
+  - {fileID: 11401500, guid: eccbc6de88ecd4555981ff033adc5f5b, type: 2}
+  wallPrefabs:
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+  - {fileID: 11452726, guid: 73d57aee050ee2d47bbe2b9b5b740a42, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: passagePrefab
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: generationStepDelay
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

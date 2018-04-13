@@ -1,0 +1,5 @@
+human_female.bin -> 61C4D0A0EFE066AA3E23B454C029DA59.bin
+D:/VirtualSpeech/App/Unity/VS_google_cardboard_v31/Assets/avatars/woman_high_res/woman2.fbm/woman2_Top_Diffuse.png -> AF555F1E014984B32E026502FB035F67.png
+D:/VirtualSpeech/App/Unity/VS_google_cardboard_v31/Assets/avatars/woman_high_res/woman2.fbm/woman2_Shoes_Diffuse.png -> A3CD1838771DD6F1F6A5A7EF7503E7A7.png
+D:/VirtualSpeech/App/Unity/VS_google_cardboard_v31/Assets/avatars/woman_high_res/woman2.fbm/woman2_Hair_Diffuse.png -> 9D37872D22C60084BE705A65E1781024.png
+D:/VirtualSpeech/App/Unity/VS_google_cardboard_v31/Assets/avatars/woman_high_res/woman2.fbm/woman2_Body_Diffuse.png -> 478AFADB4491765AAEE0F2367E7B0D39.png

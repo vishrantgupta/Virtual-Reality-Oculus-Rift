@@ -1,0 +1,121 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Couch | Wde
+Author: Danny Bittman
+URL: https://poly.google.com/view/7Q_Ab2HLll1
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Door
+Author: Jarlan Perez
+URL: https://poly.google.com/view/doUk-Nf0dQT
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Door
+Author: Poly by Google
+URL: https://poly.google.com/view/aQp17eqOPFn
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Door
+Author: Jair Trejo
+URL: https://poly.google.com/view/0-BPIdfwzI-
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Door and frame
+Author: Poly by Google
+URL: https://poly.google.com/view/2F9VFWWTLs7
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Elevator
+Author: Poly by Google
+URL: https://poly.google.com/view/aZ7y77mq_u6
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Elevator
+Author: Poly by Google
+URL: https://poly.google.com/view/8Yfw9zU245s
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Female Human Avatar
+Author: Dominic Barnard
+URL: https://poly.google.com/view/7TmxBo0d2-d
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Garbage
+Author: Poly by Google
+URL: https://poly.google.com/view/0QdIPYIA_qe
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Message board
+Author: Poly by Google
+URL: https://poly.google.com/view/fDpegPgEB0j
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: mitchell 1
+Author: Kayla McCarthy
+URL: https://poly.google.com/view/8mgR4SVVYUi
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Office Chair
+Author: Ryan Donaldson
+URL: https://poly.google.com/view/3txPAhYeu-x
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Office Printer / Copier
+Author: Bruno Oliveira
+URL: https://poly.google.com/view/bgNnmejxBa-
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Pair of Grubs
+Author: Anonymous
+URL: https://poly.google.com/view/2kdSs1uQ_0-
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Reading the news
+Author: Eric Wilson
+URL: https://poly.google.com/view/eHaCAJk_cNQ
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Staircase
+Author: Poly by Google
+URL: https://poly.google.com/view/5d6YLYba1ql
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Table
+Author: Poly by Google
+URL: https://poly.google.com/view/fnTN9aw1q25
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Vending Machine
+Author: Don Carson
+URL: https://poly.google.com/view/0CX6wj64Swu
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Water Cooler
+Author: Alex “SAFFY” Safayan
+URL: https://poly.google.com/view/6zon-acGTIu
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Window
+Author: Justin Randall
+URL: https://poly.google.com/view/dwBpM-aSA_t
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
