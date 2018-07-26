@@ -1,5 +1,5 @@
 # Virtual reality project (Virtual Tour of Computer Science Department)
-This project is a part of my graduate school virtual reality class CSCI 680. In this project I modeled my computer science department amd simulated crowd.
+This project is a part of my graduate school virtual reality class CSCI 680. In this project I modeled my computer science department and simulated crowd.
 
 Using this application I can address those people who want to take a tour of Northern Illinois University but are bounded by time constraint and cannot come for a personalized visit. This application provides a virtual tour of computer science building however it can be projected as a proof of concept for creating a virtual tour of entire university, this might also be helpful for visitors who are unaware of place and just want to know how they can navigate to their desired place.
 
